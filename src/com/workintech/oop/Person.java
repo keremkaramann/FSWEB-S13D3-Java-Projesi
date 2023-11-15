@@ -36,12 +36,12 @@ public class Person {
         return lastName;
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
 
-    public boolean isTeen(){
-      return age>=13 && age <=19;
+    public boolean isTeen() {
+        return age >= 13 && age <= 19;
     }
 
     @Override
